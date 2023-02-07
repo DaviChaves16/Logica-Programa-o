@@ -9,14 +9,49 @@
 
 </head>
 <body>
-        <div class="somar">
+        <div class="container">
             <label for="x">Primeiro número</label>
             <input type="number" nome="x" id="x">
             <label for="y">Segundo número</label>
             <input type="number" nome="y" id="y">
-            <input type="button" onclick="somar()" value="Somar">
-            <script src="./js/script.js"> </script>
-        
+            <input type="button" onclick="somar()" value="Somar"> 
         </div>
+
+        <div class="container">
+            <label for="x.elevado">Número</label>
+            <input type="number" nome="x.elevado" id="x.elevado">
+            <input type="button" onclick="elevar()" value="Elevar">
+            <p id="Resultadoquadrado"></p>
+        </div>
+
+        <div class="container">
+            <label for="comprimento">Qual seu nome?</label>
+            <input type="texto" nome="comprimento" id="comprimento">
+            <input type="button" onclick="comprimento()" value="Comprimentar">
+            <p id="saudacao"></p>
+        </div>
+
+        <div class="container">
+            <label for="n1">Primeiro número</label>
+            <input type="number" nome="n1" id="n1">
+            <label for="n2">Segundo número</label>
+            <input type="number" nome="n2" id="n2">
+            <input type="button" onclick="soma()" value="soma">
+            <input type="button" onclick="menos()" value="subtração">
+            <input type="button" onclick="vezes()" value="multiplicação">
+            <input type="button" onclick="dividir()" value="divisão">
+            <p id="resultado"></p>
+        </div>
+
+        <div class="container">
+            <label for="idade">Vamos descobrir quantos anos terá em 2030? Digite seu ano de nascimento:</label>
+            <input type="date" nome="idade" id="idade">
+            <input type="button" onclick="idade()" value="calcular">
+            <p id="calculo"></p>
+        </div>
+
+
+        
+        <script src="./js/script.js"></script>
 </body>
 </html>
