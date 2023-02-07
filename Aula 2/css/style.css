@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    color: rgb(0, 255, 13);
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+.somar{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid rgb(0, 255, 13);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;   
+}
+input[type="button"]{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    display: block;
+}
+input[type="number"]{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    
+}
+    
