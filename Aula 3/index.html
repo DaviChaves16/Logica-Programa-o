@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentagens</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <label for="x">Número qualquer</label>
+        <input type="number" nome="x" id="x">
+        <input type="button" onclick="calcular()" value="Calcular">
+        <p id="calcular"></p>
+    </div>
+
+    <div class="container">
+        <label for="custo">Preço de custo</label>
+        <input type="number" nome="custo" id="custo">
+        <input type="button" onclick="venda()" value="calcular">
+        <p id="valorvenda"></p>
+    </div>
+
+    <div class="container">
+        <label for="investimento">Valor do investimento</label>
+        <input type="number" nome="investimento" id="investimento">
+        <input type="button" onclick="retorno()" value="calcular">
+        <p id="rendimento"></p>
+    </div>
+
+    <div class="container">
+        <label for="salario">Salário mensal</label>
+        <input type="number" nome="salario" id="salario">
+        <input type="button" onclick="soma()" value="calcular">
+        <p id="bonus"></p>
+    </div>
+
+    <div class="container">
+        <label for="preco">Valor do produto</label>
+        <input type="number" nome="preco" id="preco">
+        <input type="button" onclick="promocao()" value="calcular">
+        <p id="reducao"></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
