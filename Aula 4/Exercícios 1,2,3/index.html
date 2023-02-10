@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <label for="x">Salário do cliente</label>
+        <input type="number" nome="x" id="x">
+        <input type="button" onclick="salario()" value="Calcular">
+        <p id= "plano" ></p>
+    </div>
+
+    <div class="container">
+        <label for="taxa">Valor do seu colesterol</label>
+        <input type="number" nome="taxa" id="taxa">
+        <input type="button" onclick="colesterol()" value="Calcular">
+        <p id="orientacao"></p>
+    </div>
+
+    <div class="container">
+        <label for="vendas">Vendas no mês</label>
+        <input type="number" nome="vendas" id="vendas">
+        <input type="button" onclick="comissao()" value="Calcular">
+        <p id="valor"></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
