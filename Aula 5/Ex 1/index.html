@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <label for="mes">Escolha uma opção entre 1 a 12</label>
+        <input type="number" nome="mes" id="mes" min="1" max="12">
+        <input type="button" onclick="botao(Number(document.getElementById('mes').value))" value="Resposta">
+        <p id="meses"></p>
+        
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
