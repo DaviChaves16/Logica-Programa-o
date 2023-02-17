@@ -1,9 +1,9 @@
-function bot (){
-    let text = "";
-    let i = 10;
-    while (i > -1) {
-      text += ", "+ i;
-      i--;
-    }
-    document.getElementById("regresso").innerHTML = text;
+function cont(){
+  let text = "";
+  let i = document.getElementById("contagem").value;
+  while (i > -1) {
+    text += ', ' + i;
+    i--;
   }
+  document.getElementById("regresso").innerHTML = text;
+}

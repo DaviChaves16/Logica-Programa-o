@@ -7,7 +7,7 @@ body{
     justify-content: center;
 }
 label{
-    color: green;
+    color: blue;
     font-size: 20px;
     font-weight: bold;
     display: block;
@@ -15,7 +15,7 @@ label{
 .container{
     width: fit-content;
     height: fit-content;
-    border: 1px solid green;
+    border: 1px solid blue;
     border-radius: 5px;
     padding: 15px;
     margin: 15px;   
